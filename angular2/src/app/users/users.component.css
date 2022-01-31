@@ -1,0 +1,11 @@
+.user-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin-top: 10px;
+  background-color: thistle;
+}

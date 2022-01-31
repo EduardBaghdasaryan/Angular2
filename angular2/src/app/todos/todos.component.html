@@ -1,0 +1,4 @@
+<h3>Todo List <button (click)="handleReset()">Reset</button></h3>
+
+<p *ngIf="!todos.values.length">No Items</p>
+<app-todo-card *ngFor="let todo of todos.values" [todo]="todo"></app-todo-card>
